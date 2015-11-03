@@ -1,0 +1,22 @@
+{
+  "name": "github-pages-deploy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangzuo/github-pages-deploy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wangzuo/github-pages-deploy/issues"
+  },
+  "homepage": "https://github.com/wangzuo/github-pages-deploy#readme",
+  "dependencies": {
+    "shelljs": "^0.5.3"
+  }
+}
