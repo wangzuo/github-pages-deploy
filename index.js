@@ -9,5 +9,5 @@ shell.exec('mv .publish/* .');
 shell.exec('rm -rf .publish');
 shell.exec('git add -A .');
 shell.exec('git commit -a -m "update gh-pages"');
+shell.exec('git push origin gh-pages --force');
 shell.exec('git checkout master');
-shell.exec('git status');
