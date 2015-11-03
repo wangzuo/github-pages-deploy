@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/wangzuo/github-pages-deploy/issues"
   },
-  "homepage": "https://github.com/wangzuo/github-pages-deploy#readme"
+  "homepage": "https://github.com/wangzuo/github-pages-deploy#readme",
+  "dependencies": {
+    "shelljs": "^0.5.3"
+  }
 }
