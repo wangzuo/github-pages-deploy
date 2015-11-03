@@ -1,7 +1,8 @@
 #! /usr/bin/env node
 
+var path = require('path');
 var sh = require('shelljs');
-var packageJson = require('./package.json');
+var packageJson = require(path.resolve(process.cwd(), './package.json'));
 var config = packageJson['github-pages-deploy'] || {};
 
 sh.config.silent = true;
