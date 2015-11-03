@@ -1,18 +1,10 @@
-var shell = require('shelljs');
+var shell = require('shelljs/global');
 
-
-var cmds = [
-  'mkdir -p .publish',
-  'cd .publish',
-  'git checkout gh-pages',
-  'git pull',
-  'git rm -r .',
-  'cp -R ../gh-pages/* .',
-  'git add -A .',
-  'git commit -m "update gh-pages"',
-  'git push'
-];
-
-cmds.forEach(function(cmd) {
-  shell.exec(cmd);
-});
+cd('.publish');
+exec('git checkout gh-pages');
+exec('git pull');
+exec('git rm -r .');
+exec('cp -R ../gh-pages/* .');
+exec('git add -A .');
+exec('git commit -m "update gh-pages"');
+exec('git push');
