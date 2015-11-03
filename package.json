@@ -1,6 +1,6 @@
 {
   "name": "github-pages-deploy",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Github pages deploy",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,10 @@
     "type": "git",
     "url": "git+https://github.com/wangzuo/github-pages-deploy.git"
   },
-  "author": "",
+  "bin": {
+    "github-pages-deploy": "index.js"
+  },
+  "author": "Wang Zuo",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/wangzuo/github-pages-deploy/issues"
@@ -18,5 +21,11 @@
   "homepage": "https://github.com/wangzuo/github-pages-deploy#readme",
   "dependencies": {
     "shelljs": "^0.5.3"
-  }
+  },
+  "devDependencies": {},
+  "keywords": [
+    "github",
+    "gh-pages",
+    "deploy"
+  ]
 }
