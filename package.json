@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/wangzuo/github-pages-deploy#readme",
   "dependencies": {
-    "shelljs": "^0.5.3"
+    "shelljs": "^0.7.4"
   },
   "devDependencies": {},
   "keywords": [
